@@ -11,7 +11,7 @@ public class MainController {
 
     @GetMapping("/")
     public String defaultRequest() {
-        return "main";
+        return "test";
     }
 
     @GetMapping("/example")

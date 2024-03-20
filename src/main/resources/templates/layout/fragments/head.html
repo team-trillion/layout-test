@@ -1,6 +1,6 @@
 <html lagn="ko" xmlns:th="http://www.thymeleaf.org">
-<!--headerFragment 선언-->
-<div th:fragment="headFragment">
+<!--headFragment 선언-->
+<th:block th:fragment="headFragment">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -29,7 +29,6 @@
 
     <link rel="stylesheet" href="css/style.css">
 
-
     <!-- Modernizr JS -->
     <script src="js/modernizr-2.6.2.min.js"></script>
     <!-- FOR IE9 below -->
@@ -37,5 +36,5 @@
     <script src="js/respond.min.js"></script>
     <![endif]-->
   </head>
-</div>
+</th:block>
 </html>
